@@ -25,11 +25,11 @@ sudo apt install extra-cmake-modules pkg-config xserver-xorg-input-libinput-dev 
     libkf5coreaddons-dev libkf5idletime-dev libqt5x11extras5-dev qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev qttools5-dev qttools5-dev-tools
 ```
 
-## Runtime
-
 ## Build
 
 ```shell
+git clone https://github.com/cirily/core.git
+cd core
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
