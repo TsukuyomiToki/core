@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021 Reion Wong <reion@cutefishos.com>
+ * SPDX-FileCopyrightText: 2021 Reion Wong <reion@piscesys.com>
  * SPDX-FileCopyrightText: 2018-2019 Kai Uwe Broulik <kde@privat.broulik.de>
  * SPDX-License-Identifier: LGPL-2.1-only OR LGPL-3.0-only OR LicenseRef-KDE-Accepted-LGPL
 */
@@ -126,11 +126,11 @@ QStringList NotificationServer::GetCapabilities() const
 
 QString NotificationServer::GetServerInformation(QString &vendor, QString &version, QString &specVersion) const
 {
-    vendor = "CutefishOS";
+    vendor = "Piscesys";
     version = "1.0";
     specVersion = "1.2";
 
-    return "Cutefish";
+    return "Pisces";
 }
 
 uint NotificationServer::Inhibit(const QString &desktop_entry, const QString &reason, const QVariantMap &hints)

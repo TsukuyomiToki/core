@@ -1,5 +1,5 @@
 /*
-    SPDX-FileCopyrightText: 2021 Reion Wong <reion@cutefishos.com>
+    SPDX-FileCopyrightText: 2021 Reion Wong <reion@piscesys.com>
     SPDX-FileCopyrightText: 2019 Kai Uwe Broulik <kde@privat.broulik.de>
     SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
@@ -11,7 +11,7 @@ import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtGraphicalEffects 1.0
 import FishUI 1.0 as FishUI
-import Cutefish.Notification 1.0
+import Pisces.Notification 1.0
 
 Item {
     id: root

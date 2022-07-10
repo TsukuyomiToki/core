@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 Piscesys Team.
  *
- * Author:     Reion Wong <aj@cutefishos.com>
+ * Author:     Reion Wong <aj@piscesys.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -43,21 +43,21 @@ void Application::setupShortcuts()
 void Application::onPressed(QKeySequence keySeq)
 {
     if (keySeq.toString() == "Ctrl+Alt+Del") {
-        QProcess::startDetached("cutefish-shutdown", QStringList());
+        QProcess::startDetached("pisces-shutdown", QStringList());
     }
 
     if (keySeq.toString() == "Meta+L") {
-        QProcess::startDetached("cutefish-screenlocker", QStringList());
+        QProcess::startDetached("pisces-screenlocker", QStringList());
     }
 
     if (keySeq.toString() == "Ctrl+Alt+A") {
-        QProcess::startDetached("cutefish-screenshot", QStringList());
+        QProcess::startDetached("pisces-screenshot", QStringList());
     }
 }
 
 void Application::onReleased(QKeySequence keySeq)
 {
     if (keySeq == QKeySequence(Qt::Key_Super_L)) {
-        QProcess::startDetached("cutefish-launcher", QStringList());
+        QProcess::startDetached("pisces-launcher", QStringList());
     }
 }

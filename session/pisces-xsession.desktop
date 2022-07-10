@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=pisces-session
+TryExec=pisces-session
+Name=Pisces Desktop
+Keywords=session
+Comment=session

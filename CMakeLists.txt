@@ -35,4 +35,4 @@ add_subdirectory(notificationd)
 add_subdirectory(sddm-helper)
 add_subdirectory(clipboard)
 
-install(FILES cutefish DESTINATION /etc/ COMPONENT Runtime)
+install(FILES pisces DESTINATION /etc/ COMPONENT Runtime)

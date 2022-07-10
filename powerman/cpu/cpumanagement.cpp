@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 Piscesys Team.
  *
  * Author:     Reion Wong <reionwong@gmail.com>
  *
@@ -65,7 +65,7 @@ void CPUManagement::setMode(int value)
 
     QProcess process;
     for (int i = 0; i <= m_items.count(); ++i) {
-        process.start("pkexec", QStringList() << "cutefish-cpufreq"
+        process.start("pkexec", QStringList() << "pisces-cpufreq"
                                               << "-s" << "-c" << QString::number(i)
                                               << "-m" << modeString);
         process.waitForFinished(-1);

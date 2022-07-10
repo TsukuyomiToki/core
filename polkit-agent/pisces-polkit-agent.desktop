@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=PolicyKit Handler
-TryExec=cutefish-polkit-agent
-Exec=cutefish-polkit-agent
+TryExec=pisces-polkit-agent
+Exec=pisces-polkit-agent
 NoDisplay=true
