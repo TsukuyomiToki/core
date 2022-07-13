@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=pisces-session -w
+TryExec=pisces-session --wayland
+Name=Pisces Desktop (Wayland)
+Keywords=session
+Comment=session

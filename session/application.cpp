@@ -2,6 +2,7 @@
  * Copyright (C) 2021 Piscesys Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
+ *             TsukuyomiToki <huangzimocp@126.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -288,7 +289,7 @@ void Application::initXResource()
     p.waitForFinished(-1);
 
     // For pisces-wine
-    qputenv("CUTEFISH_FONT_DPI", QByteArray::number(fontDpi));
+    qputenv("PISCES_FONT_DPI", QByteArray::number(fontDpi));
 
     // Init cursor
     runSync("cupdatecursor", {cursorTheme, QString::number(cursorSize)});

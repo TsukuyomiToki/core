@@ -1,5 +1,10 @@
+pisces-core (0.9.1) misaka; urgency=medium
+
+  * feat: Wayland session
+
+ -- Tsukuyomi Toki <huangzimocp@126.com>  Wed, 13 Jul 2022 16:45:45 +0800
 pisces-core (0.9) misaka; urgency=medium
 
   * Initial Release for Pisces.
 
- -- Piscesys Packaging Team <support@piscesys.com> Sun, 10 Jul 2022 15:15:15 +0800
+ -- Piscesys Packaging Team <support@piscesys.com>  Sun, 10 Jul 2022 15:15:15 +0800
